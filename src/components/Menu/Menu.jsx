@@ -24,11 +24,11 @@ const Menu = () => {
         </div>
         <div className="flex flex-col gap-3 justify-center items-center">
           <FaCircleExclamation className="text-2xl" />
-          <Link to="/about">About</Link>
+          <Link to="/cart">About</Link>
         </div>
         <div className="flex flex-col gap-3 justify-center items-center">
           <FaPhoneAlt className="text-2xl" />
-          <Link to="/contact">Contact</Link>
+          <Link to="/checkout">Contact</Link>
         </div>
         <div className="mx-auto">
           <button

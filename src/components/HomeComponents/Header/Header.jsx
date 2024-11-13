@@ -2,6 +2,7 @@ import React from "react";
 import "./homeheader.css";
 
 import Menu from "../../Menu/Menu";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -20,9 +21,12 @@ const Header = () => {
             pharetra dictum neque massa congue.
           </p>
           <div className="text-center">
-            <button className="px-10 mt-10 py-3 bg-teal-500 rounded-lg hover:bg-teal-600 transition-colors">
+            <Link
+              to="/menu"
+              className="px-10 mt-10 py-3 bg-teal-500 rounded-lg hover:bg-teal-600 transition-colors"
+            >
               See Menu
-            </button>
+            </Link>
           </div>
         </div>
       </div>
