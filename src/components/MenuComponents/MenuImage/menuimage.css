@@ -1,0 +1,19 @@
+.menu-image-container {
+  background-image: url("../../../assets/images/salmon.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+  .icons img {
+    filter: invert(1) brightness(2);
+  }
+}

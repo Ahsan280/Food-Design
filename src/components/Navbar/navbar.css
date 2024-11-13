@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Florensans";
+  src: url("../../assets/Fonts/Florensans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.logo {
+  font-family: "Florensans", sans-serif; /* Fallback to a default sans-serif font */
+}

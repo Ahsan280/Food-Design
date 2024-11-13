@@ -1,0 +1,17 @@
+.newLook {
+  .image {
+    background-image: url("../../../assets/images/image4.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+  }
+
+  /* For smaller screens */
+  @media (max-width: 640px) {
+    .image {
+      background-size: contain; /* Ensures the whole image is visible */
+      height: 50vh; /* Adjust the height as needed */
+    }
+  }
+}

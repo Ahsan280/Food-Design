@@ -1,0 +1,19 @@
+.product-details-header {
+  background-image: url("../../../assets/images/close-up-delicious-chicken-meal 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  position: relative;
+  .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+
+  .content {
+    position: relative;
+    z-index: 2;
+  }
+}

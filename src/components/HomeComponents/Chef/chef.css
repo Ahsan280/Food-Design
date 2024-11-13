@@ -1,0 +1,43 @@
+.card {
+  position: relative;
+  .badge {
+    position: absolute;
+
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-left: solid 0.5px rgba(0, 0, 0, 0.144);
+    border-bottom: solid 0.5px rgba(0, 0, 0, 0.144);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 30px;
+    background-color: white;
+    height: 20%;
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .badge {
+    height: 15%; /* Adjust height for smaller screens */
+    width: 50%; /* Adjust width for smaller screens */
+    font-size: 10px;
+    p {
+      font-size: xx-small;
+    }
+    h1 {
+      font-size: xx-small;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .badge {
+    height: 10%; /* Further adjust height for very small screens */
+    width: 40%; /* Further adjust width for very small screens */
+    font-size: 10px;
+    p {
+      font-size: xx-small;
+    }
+    h1 {
+      font-size: xx-small;
+    }
+  }
+}
