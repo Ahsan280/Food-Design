@@ -6,7 +6,7 @@ import image2 from "../../../assets/images/unsplash_jpkfc5_d-DI@2x.png";
 import image3 from "../../../assets/images/unsplash_mAQZ3X_8_l0.png";
 const AboutUs = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 mt-32 md:mt-0">
+    <div className="grid grid-cols-1 md:grid-cols-2 pt-32 md:mt-0">
       <div className="text-content px-10 py-10 flex flex-col gap-10">
         <h1 className="text-3xl federo-regular">About Us</h1>
         <h1 className="text-5xl federo-regular w-9/12">
